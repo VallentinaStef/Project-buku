@@ -8,6 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class library extends Model
 {
-    protected $guarded = []; 
+    protected $fillable = ["JudulBuku","Penulis", "penerbit","TaunTerbit","Sinopsis","JumlahHalaman","ISBN"];
 
 }

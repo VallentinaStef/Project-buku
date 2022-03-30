@@ -60,7 +60,7 @@
       <td> <a href="/detail/{{ $daftar->id}}" class="btn btn-outline-warning">Detail</a> </button>
       <td>
       <a href="/delete/{{ $daftar->id}}" class="btn btn-outline-danger">Hapus</button>
-      <a href="/tampilkanData/{{ $daftar->id}}" class="btn btn-outline-success">Edit</a>
+      <a href="/tampilkanData/{{ $daftar->id}}" class="btn  btn-outline-success">Edit</a>
       </td>
       
     </tr>

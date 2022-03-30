@@ -46,6 +46,12 @@
 
 
                 <div class="mb-3">
+                  <label class="form-label">ISBN</label>
+                  <input name="ISBN" type="text" class="form-control" value="{{$data->ISBN}}">
+                  </div>
+
+
+                <div class="mb-3">
                   <label class="form-label">Jumlah Halaman</label>
                   <input name="JumlahHalaman" type="text" class="form-control" value="{{$data->JumlahHalaman}}">
                   </div>
